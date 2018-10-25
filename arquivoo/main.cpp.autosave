@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    ofstream arquivoo("logins.sh");
+    
+    arquivoo << "#!/bin/bash" << endl; // grava no arquivo #!/bin/bash
+    
+    ifstream arquivoi("CMP-2.txt");
+    
+    while(!arquivoi.fail())
+}
